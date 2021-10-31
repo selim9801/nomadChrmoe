@@ -89,6 +89,7 @@ function makeTodo(obj){
                     <i class="fas fa-times close"data-id=${obj.id}></i>
                 </button>`;
     todo_list.appendChild(li);
+    li.scrollIntoView({block: "end"});
 }
 
 function handleTodo(){
