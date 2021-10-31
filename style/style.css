@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    margin:0;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%)
+}
+.time-container{
+    position: relative;
+    width: 20rem;
+
+}
+.time{
+    font-size:3.5rem;
+}
+
+.ampm{
+    position: absolute;
+    right:0;
+    top:1rem;
+    font-size: 2rem;
+}
+
+input{
+    background-color: transparent;
+    border:none;
+    outline:none;
+    margin-top:1rem;
+    width: 18rem;
+    color: white;
+    font-size:1.5rem;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+input::placeholder{
+    color: rgb(215, 214, 214);
+}

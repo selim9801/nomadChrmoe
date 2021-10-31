@@ -1,0 +1,6 @@
+  /* background-clip 속성을 text로 설정함으로써 요소의 배경을 텍스트 부분에만 적용되도록 설정한 것이다.
+    그리고 텍스트가 그대로 있으면 그 뒤에있는 배경이 보이지 않기 때문에, 텍스트 색을transparent 로 설정해준다.
+
+    그 후 무지개 빛 gradient로 설정해준 배경을 animation을 통해 천천히 옆으로 움직여주면 끝!
+
+    background 에 gradient 가 아닌 background-image를 넣어도 아주 잘 된다!  */
